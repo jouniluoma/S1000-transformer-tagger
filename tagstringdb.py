@@ -306,7 +306,7 @@ def main(argv):
                     word_sequence = [w for s in data.words for w in s]
                     tag_sequence = [t for s in word_labels for t in s]
                     spans = tags_to_spans(indices[2], word_sequence, tag_sequence)
-                    writespans(of, indices[0], spans)
+                    writespans(out_spans, indices[0], spans)
     print("inference ends: ", datetime.datetime.now(),flush=True)
 
 
