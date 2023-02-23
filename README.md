@@ -10,7 +10,7 @@ Quickstart
 ```
 conda create -n s1000-env python=3.9
 conda activate s1000-env
-cd S1000-transformer-tagger
+pip install -r requirements.txt
 ./setup.sh
 ./scripts/run-bio-tagger.sh
 ```
