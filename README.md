@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/604544955.svg)](https://zenodo.org/badge/latestdoi/604544955)
 # S1000-transformer-tagger
 S1000 Transformer based NER tagger for literature
 
